@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "Prvi Blog 1",
+      "desc": "Dobrodosli! sad asda dsadasd as sdasd 111111111111111",
+      "author": "Taca",
+      "id": "1"
+    },
+    {
+      "title": "Drugi Blog 2",
+      "desc": "Danas radimo nesto novo! 222222222222222222222",
+      "author": "Taca22",
+      "id": "2"
+    },
+    {
+      "title": "Treci Blog 3",
+      "desc": "Dovidjenja! 33333333333333",
+      "author": "Taca3333",
+      "id": "3"
+    }
+  ]
+}

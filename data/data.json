@@ -1,0 +1,174 @@
+{
+    "clothes": {
+        "women": {
+            "clothing": {
+                "tops": {
+                    "top-1": {
+                        "name": "Top 1",
+                        "color": [
+                            "Red",
+                            "Orange",
+                            "Black"
+                        ],
+                        "size": "S",
+                        "imageURLs": [
+                            "https://your-storage-bucket-url.com/images/top1_view1.jpg",
+                            "https://your-storage-bucket-url.com/images/top1_view2.jpg",
+                            "https://your-storage-bucket-url.com/images/top1_view3.jpg"
+                        ]
+                    },
+                    "top-2": {
+                        "name": "Top 2",
+                        "color": [
+                            "Red"
+                        ],
+                        "size": "S",
+                        "imageURLs": [
+                            "https://your-storage-bucket-url.com/images/top2_view1.jpg"
+                        ]
+                    },
+                    "top-3": {
+                        "name": "Top 3",
+                        "color": [
+                            "Blue",
+                            "Light green"
+                        ],
+                        "size": "M",
+                        "imageURLs": [
+                            "https://your-storage-bucket-url.com/images/top3_view1.jpg",
+                            "https://your-storage-bucket-url.com/images/top3_view2.jpg"
+                        ]
+                    }
+                },
+                "shirts": {
+
+                },
+                "blouses": {
+
+                },
+                "cardigans": {
+
+                },
+                "coats": {
+
+                },
+                "jackets": {
+
+                },
+                "dresses": {
+
+                },
+                "trousers": {
+
+                },
+                "jeans": {
+
+                },
+                "shorts": {
+
+                },
+                "skirts": {
+
+                },
+                "lingerie": {
+
+                },
+                "nightwear": {
+
+                },
+                "sportswear": {
+
+                },
+                "swimwear": {
+
+                },    
+                "suits": {
+
+                }            
+            },
+            "shoes": {
+                "trainers": {
+
+                },
+                "boots": {
+
+                },
+                "sandals": {
+
+                },
+                "flat-sandals": {
+
+                },
+                "heels": {
+
+                },
+                "sliders": {
+
+                },
+                "loafers": {
+
+                }
+            },
+            "accessories": {     
+                "sunglasses": {
+
+                },
+                "belts": {
+
+                },
+                "hats": {
+
+                },
+                "scarves": {
+
+                },
+                "socks": {
+
+                },
+                "tights": {
+
+                },
+                "hairclips": {
+
+                }
+            },
+            "jewellery": {
+                "bracelets": {
+
+                },
+                "earrings": {
+
+                },
+                "necklaces": {
+
+                },
+                "rings": {
+
+                },
+                "bodyjewelerry": {
+
+                }            
+            },
+            "cosmetics": {
+                "skincare": {
+
+                },
+                "bodycare": {
+                
+                },
+                "haircare": {
+                
+                },
+                "makeup": {
+                
+                },
+                "wellness": {
+                
+                }
+            } 
+        }
+    },
+    "users": {
+        
+    }
+}

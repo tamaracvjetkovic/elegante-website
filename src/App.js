@@ -1,14 +1,16 @@
 import './App.css';
+
 import Navbar from './components/navbar/Navbar';
+import Homepage from './components/homepage/Homepage';
 import Create from './components/Create';
-import { useState, useEffect } from 'react';
+
 import useFetch from './hooks/useFetch';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Homepage from './components/homepage/Homepage';
+
 
 
 function App() {
-  const url = "http://localhost:3000/blogs"
+  const url = "http://localhost:8001/blogs"
 
   const { data: blogs, loaded, error, setData } = useFetch(url);
 
@@ -22,6 +24,9 @@ function App() {
               <Homepage/>
             </Route>
             <Route exact path = "/create"> 
+              <Create />
+            </Route>
+            <Route exact path = "/men-clothes"> 
               <Create />
             </Route>
           </Switch>

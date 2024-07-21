@@ -1,13 +1,12 @@
 import React from 'react'
-import logoImage from '../../logo//elegante-logo6.png';
 
 
-const MainLogoPage = () => {
+const MainLogo = () => {
   return (
     <div className = "MainLogoWrapper">
-      <a href = "#"> <img className = "MainLogo" src = {logoImage} alt = "Logo"/> </a>
+      <p> ELEGANTE. </p>
     </div>
   )
 }
 
-export default MainLogoPage
+export default MainLogo

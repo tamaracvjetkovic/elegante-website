@@ -1,3 +1,5 @@
+/* APP */
+
 .App {
   text-align: center;
 }
@@ -39,29 +41,20 @@
 
 
 
-
 /*   ////////  CUSTOM CSS  \\\\\\\\   */
-
 
 
 /* NAVBAR */
 
+.Navbar {
+  position: relative;
+  z-index: 1000;
+}
 .Navbar .nav-wrapper {
   background-color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 4px rgba(104, 77, 4, 0.767);
+  box-shadow: 0px -1px 20px 0px rgb(104 77 4 / 46%);
 }
 
-  .Navbar .hide-on-med-and-down li a {
-    color: rgb(133, 94, 10) !important;
-    letter-spacing: 0.4px;
-    font-size: 17px;
-    padding-left: 14px;
-    padding-right: 14px;
-  }
-  .Navbar .hide-on-med-and-down li a:hover {
-    background-color: rgba(202, 160, 43, 0.831) !important;
-    color: white !important; 
-  }
   .Navbar .hide-on-med-and-down .EleganteNavbar  {
     color: rgb(178, 133, 11) !important;
     letter-spacing: 2.3px;
@@ -71,174 +64,917 @@
     padding-right: 20px;
     font-family: Muli;
   }
+    .Navbar .hide-on-med-and-down li a:hover {
+      background-color: rgba(180, 141, 37, 0.831) !important;
+      color: white !important; 
+    }  
+    .Navbar .hide-on-med-and-down li a {
+      color: rgb(133, 94, 10) !important;
+      letter-spacing: 0.4px;
+      font-size: 17px;
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+  
   #form1 {
     height: 64px;
     width: 220px;
   }
-  #form1 .input-field {
-    margin: 0;
-    background-color: rgb(255, 255, 255);
-    padding-right: 50px;
-  }
-  #search {
-    background-color: white;
-  }
-  #search-icon {
-    color: rgb(58, 58, 58);
-  }
-  .input-field {
-    margin-top: 0;
-  }
-
+    .input-field {
+      margin-top: 0;
+    }
+    #form1 .input-field {
+      margin: 0;
+      background-color: rgb(255, 255, 255);
+      padding-right: 50px;
+    }
+      #search {
+        background-color: white;
+      }
+      #search-icon {
+        color: rgb(58, 58, 58);
+      }
+  
 
   .Navbar .sidenav-trigger {
     color: rgb(178, 133, 11);
   }
-  .Navbar .sidenav li i {
-    cursor: pointer;
-    height: 48px;
-    padding-top: 13px;
-  }
-  .Navbar .sidenav li a {
-    color: rgb(133, 94, 10) !important;
-    letter-spacing: 0.4px;
-    font-size: 16px;
-    font-weight: 400;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  .Navbar .sidenav li a:hover {
-    background-color: rgba(202, 160, 43, 0.831) !important;
-    color: white !important; 
-    transition: 0.2s ease;
-  }
-  .Navbar .sidenav li a i {
-    display: flex;
-    align-items: flex-end;
-  }
-  .Navbar .sidenav li a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .Navbar .sidenav li a i { 
-    color: rgb(133, 94, 10) !important;
-    letter-spacing: 0.5px;
-    font-size: 24px;
-    font-weight: 400;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  .Navbar .sidenav li:not(:nth-child(2)) i:hover {
-    cursor: pointer;
-    color: rgb(255, 255, 255) !important;
-  }
-  .Navbar .sidenav li:not(:nth-child(2)):hover i {
-    color: rgb(255, 255, 255) !important;
-  }
-  .Navbar .sidenav .EleganteNavbar  {
-    color: rgb(178, 133, 11) !important;
-    letter-spacing: 2.5px;
-    font-size: 18px;
-    font-weight: 500;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: Muli;
-  }
-  #form2 {
-    height: 48px;
-    padding-right: 50px;
-    padding-left: 50px;
-  }
-  #form2 .input-field {
-    margin: 0;
-    background-color: rgb(255, 255, 255);
-    padding-right: 50px;
-    padding-left: 50px;
-  }
-  #search2 {
-    background-color: rgb(255, 255, 255);
-    height: 48px;
-    border: none;
-  }
-  #search-icon {
-    color: rgb(58, 58, 58) !important;
-  }
-  .input-field {
-    margin-top: 0;
-  }
-  .label-icon {
-    transform: none !important;
-  }
-  .input-field input {
-    background-color: white !important;
-  }
+    .Navbar .sidenav li a {
+      color: rgb(133, 94, 10) !important;
+      letter-spacing: 0.4px;
+      font-size: 16px;
+      font-weight: 400;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .Navbar .sidenav li a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .Navbar .sidenav li a:hover {
+      background-color: rgba(180, 141, 37, 0.831) !important;
+      color: white !important; 
+      transition: 0.12s ease;
+    }  
+    .Navbar .sidenav .EleganteNavbar  {
+      color: rgb(178, 133, 11) !important;
+      letter-spacing: 2.5px;
+      font-size: 18px;
+      font-weight: 500;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-family: Muli;
+    }
+
+    .Navbar .sidenav li i {
+      cursor: pointer;
+      height: 48px;
+      padding-top: 13px;
+    }
+    .Navbar .sidenav li a i {
+      display: flex;
+      align-items: flex-end;
+    } 
+    .Navbar .sidenav li a i { 
+      color: rgb(133, 94, 10) !important;
+      letter-spacing: 0.5px;
+      font-size: 24px;
+      font-weight: 400;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .Navbar .sidenav li:not(:nth-child(2)) i:hover {
+      cursor: pointer;
+      color: rgb(255, 255, 255) !important;
+    }
+    .Navbar .sidenav li:not(:nth-child(2)):hover i {
+      color: rgb(255, 255, 255) !important;
+    }
+  
+    #form2 {
+      height: 48px;
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+      .input-field {
+        margin-top: 0;
+      }
+      #form2 .input-field {
+        margin: 0;
+        background-color: rgb(255, 255, 255);
+        padding-right: 50px;
+        padding-left: 50px;
+      }
+      #search2 {
+        background-color: rgb(255, 255, 255);
+        height: 48px;
+        border: none;
+      }
+      #search-icon {
+        color: rgb(58, 58, 58) !important;
+      }
+      .label-icon {
+        transform: none !important;
+      }
+      .input-field input {
+        background-color: white !important;
+      }
 
 
 /* MAIN LOGO */
 
-.MainLogoWrapper {
-  background-color: rgb(156, 145, 110);
-  background: 
-  url("wallpapers/wallpaper1.avif");
+.MainLogoWrapper {  
+  background: linear-gradient(rgba(0, 0, 0, 0.201), rgba(0, 0, 0, 0.434), rgba(5, 5, 5, 0.279)), 
+    url("wallpapers/wallpaper2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  border-top: solid 1.5px rgba(222, 180, 65, 0.253);
-  border-bottom: solid 1.5px rgba(222, 180, 65, 0.253);
   padding-top: 64px;
+  height: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 120%;
+  background-position: 60% 20%;
 }
 @media screen and (max-width: 600px) {
   .MainLogoWrapper {
-    background-color: rgb(156, 145, 110);
-    background: 
-    url("wallpapers/wallpaper1.avif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-top: solid 1.5px rgba(222, 180, 65, 0.253);
-    border-bottom: solid 1.5px rgba(222, 180, 65, 0.253);
     padding-top: 56px;
   }
 }
+
+  .MainLogoWrapper p {
+    color: white;
+    font-size: 115px;
+    -webkit-text-stroke-width: 7px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    letter-spacing: 15px;
+    font-family: Muli;
+    width: 100vw;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+  }
+  @media screen and (max-width: 1000px) {
+    .MainLogoWrapper p {
+      font-size: 110px;
+    }
+    .MainLogoWrapper {
+      height: 460px;
+      background-size: 130%;
+      background-position: 60% 20%;
+    }
+  }
+  @media screen and (max-width: 920px) {
+    .MainLogoWrapper p {
+      font-size: 100px;
+    }
+    .MainLogoWrapper {
+      height: 440px;
+      background-size: 135%;
+      background-position: 60% 20%;
+    }
+  }
+  @media screen and (max-width: 850px) {
+    .MainLogoWrapper p {
+      font-size: 92px;
+    }
+    .MainLogoWrapper {
+      height: 430px;
+      background-size: 145%;
+      background-position: 60% 20%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .MainLogoWrapper {
+      height: 420px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .MainLogoWrapper p {
+      font-size: 85px;
+    }
+    .MainLogoWrapper {
+      height: 400px;
+      background-size: 145%;
+      background-position: 60% 20%;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .MainLogoWrapper p {
+      font-size: 76px;
+      -webkit-text-stroke-width: 6px;
+    }
+    .MainLogoWrapper {
+      background-size: 150%;
+      height: 390px;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .MainLogoWrapper p {
+      font-size: 72px;
+      letter-spacing: 13px;
+
+    }
+    .MainLogoWrapper {
+      height: 370px;
+      background-size: 160%;
+      background-position: 60% 20%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .MainLogoWrapper p {
+      font-size: 65px;
+      -webkit-text-stroke-width: 5px;
+      letter-spacing: 12px;
+
+    }
+    .MainLogoWrapper {
+      height: 340px;
+      background-size: 160%;
+      background-position: 60% 20%;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .MainLogoWrapper p {
+      font-size: 60px;
+      -webkit-text-stroke-width: 4px;
+      letter-spacing: 11px;
+    }
+    .MainLogoWrapper {
+      height: 320px;
+      background-size: 160%;
+      background-position: 60% 20%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .MainLogoWrapper p {
+      font-size: 53px;
+      -webkit-text-stroke-width: 4px;
+      letter-spacing: 11px;
+    }
+    .MainLogoWrapper {
+      height: 300px;
+      background-size: 160%;
+      background-position: 60% 20%;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .MainLogoWrapper p {
+      font-size: 44px;
+      -webkit-text-stroke-width: 4px;
+      letter-spacing: 11px;
+    }
+    .MainLogoWrapper {
+      height: 270px;
+      background-size: 160%;
+      background-position: 60% 20%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .MainLogoWrapper p {
+      font-size: 37px;
+      -webkit-text-stroke-width: 4px;
+      letter-spacing: 10px;
+    }
+    .MainLogoWrapper {
+      height: 240px;
+      background-size: 170%;
+      background-position: 60% 20%;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .MainLogoWrapper p {
+      font-size: 32px;
+      -webkit-text-stroke-width: 3px;
+      letter-spacing: 10px;
+    }
+    .MainLogoWrapper {
+      height: 220px;
+      background-size: 170%;
+      background-position: 60% 20%;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .MainLogoWrapper p {
+      font-size: 30px;
+      -webkit-text-stroke-width: 3px;
+      letter-spacing: 8px;
+    }
+    .MainLogoWrapper {
+      height: 210px;
+      background-size: 170%;
+      background-position: 60% 20%;
+    }
+  }
+  @media screen and (max-width: 270px) {
+    .MainLogoWrapper p {
+      font-size: 25px;
+      -webkit-text-stroke-width: 3px;
+      letter-spacing: 8px;
+    }
+    .MainLogoWrapper {
+      height: 200px;
+      background-size: 170%;
+      background-position: 60% 0%;
+    }
+  }
+  @media screen and (max-width: 230px) {
+    .MainLogoWrapper p {
+      font-size: 22px;
+      -webkit-text-stroke-width: 2px;
+      letter-spacing: 8px;
+    }
+    .MainLogoWrapper {
+      height: 180px;
+      background-size: 170%;
+      background-position: 60% 0%;
+    }
+  }
   .MainLogo {
     margin-top: 30px;
     margin-bottom: 25px;
     width: 32vw;
     height: 23vw;
     border-radius: 7px;
-    box-shadow: 0px 0px 9px rgba(96, 71, 2, 0.71)  
+    box-shadow: 0px 0px 9px rgba(96, 71, 2, 0.71);
   }
   @media screen and (max-width: 900px) {
     .MainLogo {
       width: 38vw;
       height: 28vw;
+      box-shadow: 0px 0px 9px rgba(96, 71, 2, 0.71)  
     }
   }
   @media screen and (max-width: 800px) {
     .MainLogo {
       width: 43vw;
       height: 33vw;
+      box-shadow: 0px 0px 9px rgba(96, 71, 2, 0.71)  
     }
   }
   @media screen and (max-width: 700px) {
     .MainLogo {
       width: 46vw;
       height: 36vw;
+      box-shadow: 0px 0px 9px rgba(96, 71, 2, 0.71)  
     }
   }
   @media screen and (max-width: 600px) {
     .MainLogo {
       width: 55vw;
       height: 42vw;
+      box-shadow: 0px 0px 9px rgba(96, 71, 2, 0.71)  
     }
   }
   @media screen and (max-width: 500px) {
     .MainLogo {
       width: 60vw;
       height: 45vw;
+      box-shadow: 0px 0px 9px rgba(96, 71, 2, 0.71)  
     }
+  }
+
+
+/* MAIN CONTENT */
+
+.MainOptionCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #fefefe;
+  box-shadow: 0px -1px 20px 0px rgba(0, 0, 0, 0.295);
+}
+@media screen and (max-width: 700px) {
+  .MainOptionCards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-direction: column;
+  }
+}
+
+  .MainOptionOneCard {
+    flex: 0 0 30%;
+    background-color: black;
+    margin: 15px;
+    border: white 3px solid;
+    box-shadow: 2px 3px 8px 0px rgb(61 61 61 / 33%);
+  }
+  .MainOptionOneCard a {
+    transition: 0.3s;
+  }
+  .MainOptionOneCard a:hover { 
+    background-color: rgb(0 0 0 / 30%);
+  }
+  .MainCardWomen { 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(5, 5, 5, 0.142)),
+      url("wallpapers/wallpaper20.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .MainCardMen {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(5, 5, 5, 0.142)),
+      url("wallpapers/wallpaper2.gif");
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .MainCardChildren {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(5, 5, 5, 0.142)),
+      url("wallpapers/wallpaper14-1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @media screen and (min-width: 500px) {
+    .MainOptionOneCard {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin: 12px;
+    }
+    .MainOptionOneCard p {
+      font-size: 40px !important;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .MainOptionOneCard {
+      padding-top: 55px;
+      padding-bottom: 55px;
+      margin: 15px;
+    }
+    .MainOptionOneCard p {
+      font-size: 43px !important;
+    }
+  } 
+  @media screen and (min-width: 700px) {
+    .MainOptionOneCard {
+      padding-top: 55px;
+      padding-bottom: 55px;
+      margin: 12px;
+    }
+    .MainOptionOneCard p {
+      font-size: 25px !important;
+    }
+  } 
+  @media screen and (min-width: 850px) {
+    .MainOptionOneCard {
+      padding-top: 70px;
+      padding-bottom: 70px;
+      margin: 15px;
+    }
+    .MainOptionOneCard p {
+      font-size: 29px !important;
+    }
+  }
+  @media screen and (min-width: 920px) {
+    .MainOptionOneCard p {
+      font-size: 33px !important;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    .MainOptionOneCard {
+      padding: 35px;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      margin: 15px;
+    }
+    .MainOptionOneCard p {
+      font-size: 40px !important;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .MainOptionOneCard {
+      padding: 35px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      margin: 15px;
+    }
+    .MainOptionOneCard p {
+      font-size: 45px !important;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .MainOptionOneCard {
+      display: flex;
+      background-color: black;
+      padding: 110px;
+      width: 85vw;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .MainOptionOneCard:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .MainOptionOneCard {
+      display: flex;
+      background-color: black;
+      padding: 80px;
+      width: 85vw;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .MainOptionOneCard:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+/* 3, 5, 6, 10, 16, 17, 21, 22, 27 */
+
+
+/* MAIN WALLPAPER 1 */
+
+.MainWallpaper1 { 
+  background: linear-gradient(rgba(0, 0, 0, 0.347), rgba(0, 0, 0, 0.498), rgba(5, 5, 5, 0.324)), 
+    url("wallpapers/wallpaper1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 130%;
+  background-position: 00% 40%;
+  position: relative;
+}
+
+
+/* QUOTE */
+
+.MainQuote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.37);
+  padding: 35px;
+  width: 100%;
+}
+
+  .MainQuote p {
+    font-size: 32px;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-family: Muli;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 300;
+  }
+  @media screen and (max-width: 900px) {
+    .MainQuote p {
+      font-size: 30px;
+      padding-right: 40px;
+      padding-left: 40px;
+      letter-spacing: 2px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .MainWallpaper1 { 
+      height: 450px;
+      background-size: 130%;
+      background-position: 00% 40%;
+    }
+    .MainQuote p {
+      font-size: 25px;
+      padding-right: 35px;
+      padding-left: 35px;
+      letter-spacing: 2px;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .MainWallpaper1 { 
+      height: 430px;
+      background-size: 140%;
+      background-position: 10% 40%;
+    }
+    .MainQuote p {
+      font-size: 24px;
+      padding-right: 20px;
+      padding-left: 20px;
+      letter-spacing: 2px;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .MainWallpaper1 { 
+      height: 410px;
+      background-size: 140%;
+      background-position: 10% 40%;
+    }
+    .MainQuote p {
+      font-size: 22px;
+      padding-right: 17px;
+      padding-left: 17px;
+      letter-spacing: 2px;    
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .MainWallpaper1 { 
+      height: 400px;
+      background-size: 140%;
+      background-position: 10% 40%;
+    }
+    .MainQuote p {
+      font-size: 19px;
+      padding-right: 17px;
+      padding-left: 17px;
+      letter-spacing: 2px;     
+    }
+  }
+  @media screen and (max-width: 545px) {
+    .MainWallpaper1 { 
+      height: 390px;
+      background-size: 140%;
+      background-position: 10% 40%;
+    }
+    .MainQuote {
+      padding: 30px;
+      padding-right: 20px;
+      padding-left: 20px; 
+    }
+    .MainQuote p {
+      font-size: 16px;
+      padding-right: 17px;
+      padding-left: 17px;
+      letter-spacing: 2px;     
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .MainWallpaper1 { 
+      height: 350px;
+      background-size: 140%;
+      background-position: 10% 40%;
+    }
+    .MainQuote {
+      padding: 30px;
+      padding-right: 20px;
+      padding-left: 20px; 
+    }
+    .MainQuote p {
+      font-size: 16px;
+      padding-right: 3px;
+      padding-left: 3px;
+      letter-spacing: 2px;     
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .MainQuote {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .MainQuote p {
+      font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .MainQuote {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .MainQuote p {
+      font-size: 24px;
+    }
+  }
+  @media screen and (max-width: 355px) {
+    .MainQuote {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .MainQuote p {
+      font-size: 22px;
+    }
+  }
+  @media screen and (max-width: 325px) {
+    .MainQuote {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .MainQuote p {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 280px) {
+    .MainQuote {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .MainQuote p {
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width: 231px) {
+    .MainQuote {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .MainQuote p {
+      font-size: 14px;
+    }
+  }
+
+
+/* CAROUSEL */
+
+.carousel {
+  height: 450px !important;
+  margin-top: 25px;
+}
+  .carousel img {
+    height: 650px !important;
+  }
+  @media screen and (max-width: 880px) {
+    .carousel img {
+      height: 550px !important;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .carousel {
+      height: 400px !important;
+    }
+    .carousel img {
+      height: 490px !important;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .carousel {
+      height: 400px !important;
+    }
+    .carousel img {
+      height: 450px !important;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .carousel {
+      height: 350px !important;
+    }
+    .carousel img {
+      height: 420px !important;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .carousel {
+      height: 320px !important;
+    }
+    .carousel img {
+      height: 380px !important;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .carousel {
+      height: 320px !important;
+    }
+    .carousel img {
+      height: 380px !important;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .carousel {
+      height: 270px !important;
+    }
+    .carousel img {
+      height: 340px !important;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .carousel {
+      height: 210px !important;
+    }
+    .carousel img {
+      height: 330px !important;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .carousel {
+      height: 180px !important;
+    }
+    .carousel img {
+      height: 280px !important;
+    }
+  }
+  @media screen and (max-width: 280px) {
+    .carousel {
+      height: 160px !important;
+    }
+    .carousel img {
+      height: 280px !important;
+    }
+  }
+
+
+/* MAIN MOST POPULAR */
+
+.MainMostPopular {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 !important;
+}
+
+
+/* CLOTHES CARD */
+
+.ClothesCard {
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+}
+
+  .ClothesCardUpper {
+    background-color: rgb(188, 188, 188);
+    background: url("card_pictures/picture2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    height: 270px;
+    margin-bottom: 2px;
+  }
+    .ClothesCardUpper1 {
+      height: 235px;
+    }
+    .ClothesCardUpper2 {
+      height: 23px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      background-color: rgba(255, 255, 255, 0.47);
+    }
+      .ClothesCardUpper2ColorChanger {
+        height: 13px;
+        width: 13px;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        margin-left: 7px;
+        margin-right: 7px;
+        color: transparent;
+        user-select: none;
+        cursor: pointer;
+        box-shadow: 0.4px 0.5px 1.3px rgb(0, 0, 0);
+      }
+      .ClothesCardUpper2ColorChanger:hover,
+      .ClothesCardUpper2ColorChanger:focus {
+        height: 15px;
+        width: 15px;
+        cursor: pointer;
+      }
+
+  .ClothesCardLower1 {
+    background-color: rgb(255, 255, 255);
+    height: 65px;
+    display: flex;
+    padding-top: 3px;
+    border-bottom: solid rgba(0, 0, 0, 0.228) 1px
+  }
+    .ClothesCardLower1Name {
+      height: 62px;
+      width: 82%;
+      font-size: 12px;
+      font-weight: 600;
+      text-align: left;
+    }
+    .ClothesCardLower1Favorite {
+      height: 62px;
+      width: 18%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+      .heart {
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 5;
+      }
+     
+
+  .ClothesCardLower2 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-top: 5px;
+  }
+    .ClothesCardLower2Price {
+      font-weight: 900;
+      font-size: 16px;
+    }
+
+
+/* FOOTER */
+
+.page-footer { 
+  background-color: #f1f1f118 !important;
+  box-shadow: 0px -1px 20px 0px rgba(0, 0, 0, 0.16) !important;
+}
+  .page-footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grey-text.text-lighten-4 {
+    color: black !important;
   }
 
 
@@ -273,5 +1009,4 @@
   .BlogDetails {
     width: 100vw;
   }
-
 

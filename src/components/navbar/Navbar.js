@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <div className = "Navbar">
-      <nav class="z-depth-0" style = {{position: "fixed"}}>
+      <nav class="z-depth-0" style = {{position: "fixed", opacity: "98%"}}>
         <div class="nav-wrapper">
           <div style = {{display: "flex", justifyContent: "space-between"}}> 
             <Link to ="#" data-target="mobile-demo" class="sidenav-trigger"><i className="material-icons">menu</i></Link>          
@@ -54,7 +54,7 @@ const Navbar = () => {
             <li><Link to ="/contact">Contact</Link></li>
             <li><Link to ="/profile"> <i className="material-icons"> person </i> </Link></li>
             <li><Link to ="/shopping-cart"> <i className="material-icons"> shopping_cart </i> </Link></li>
-            <li><Link to ="/favorites"> <i className="material-icons"> favorite </i> </Link></li>        
+            <li><Link to ="/wishlist"> <i className="material-icons"> favorite </i> </Link></li>        
           </ul>
         </div>
       </nav>
@@ -78,7 +78,7 @@ const Navbar = () => {
         <li><Link to ="/contact">Contact</Link></li>
         <li><Link to ="/profile"> <i className="material-icons"> person </i> </Link></li>
         <li><Link to ="/shopping-cart"> <i className="material-icons"> shopping_cart </i> </Link></li>
-        <li><Link to ="/favorites" > <i className="material-icons"> favorite </i> </Link></li>
+        <li><Link to ="/wishlist" > <i className="material-icons"> favorite </i> </Link></li>
       </ul>
     </div>
   )

@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <div className = "Navbar">
-      <nav class="z-depth-0" style = {{position: "fixed", opacity: "98%"}}>
+      <nav class="z-depth-0" style = {{position: "fixed", opacity: "99%"}}>
         <div class="nav-wrapper">
           <div style = {{display: "flex", justifyContent: "space-between"}}> 
             <Link to ="#" data-target="mobile-demo" class="sidenav-trigger"><i className="material-icons">menu</i></Link>          

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MainQuote = () => {
+const Quote = () => {
   return (
     <div className = "MainQuote"> 
       <p> "Attention to detail is of utmost importance when you want to look good." </p>
@@ -8,4 +8,4 @@ const MainQuote = () => {
   )
 }
 
-export default MainQuote
+export default Quote

@@ -829,91 +829,79 @@
 
 /* CAROUSEL */
 
+.AfterWallpaper1 {
+  box-shadow: -1px -13px 15px rgba(0, 0, 0, 0.192);
+}
+
 .carousel {
-  height: 450px !important;
-  margin-top: 25px;
+  height: 560px !important;
 }
   .carousel img {
     height: 650px !important;
+    padding-top: 33px;
   }
+
   @media screen and (max-width: 880px) {
     .carousel img {
       height: 550px !important;
     }
+    .carousel img {
+      height: 550px !important;
+      width: 120% !important;
+      transform: translateX(-5%);
+    }
   }
   @media screen and (max-width: 800px) {
     .carousel {
-      height: 400px !important;
+      height: 460px !important;
     }
     .carousel img {
-      height: 490px !important;
-    }
-  }
-  @media screen and (max-width: 750px) {
-    .carousel {
-      height: 400px !important;
-    }
-    .carousel img {
-      height: 450px !important;
+      height: 500px !important;
+      width: 105% !important;
+      transform: translateX(0%);
     }
   }
   @media screen and (max-width: 700px) {
     .carousel {
-      height: 350px !important;
+      height: 400px !important;
     }
     .carousel img {
-      height: 420px !important;
+      width: 100% !important;
+      height: 400px !important;
     }
   }
   @media screen and (max-width: 600px) {
-    .carousel {
-      height: 320px !important;
-    }
     .carousel img {
-      height: 380px !important;
+      height: 400px !important;
+      width: 120% !important;
+      transform: translateX(-5%);
     }
   }
-  @media screen and (max-width: 550px) {
-    .carousel {
-      height: 320px !important;
-    }
+  @media screen and (max-width: 500px) {
     .carousel img {
-      height: 380px !important;
+      width: 150% !important;
+      transform: translateX(-15%);
     }
   }
   @media screen and (max-width: 450px) {
-    .carousel {
-      height: 270px !important;
-    }
     .carousel img {
-      height: 340px !important;
+      width: 180% !important;
+      transform: translateX(-22%);
     }
   }
   @media screen and (max-width: 400px) {
-    .carousel {
-      height: 210px !important;
-    }
     .carousel img {
-      height: 330px !important;
+      width: 190% !important;
+      transform: translateX(-23%);
     }
   }
   @media screen and (max-width: 350px) {
-    .carousel {
-      height: 180px !important;
-    }
     .carousel img {
-      height: 280px !important;
+      width: 190% !important;
+      transform: translateX(-20%);
     }
   }
-  @media screen and (max-width: 280px) {
-    .carousel {
-      height: 160px !important;
-    }
-    .carousel img {
-      height: 280px !important;
-    }
-  }
-
+  
 
 /* MAIN MOST POPULAR */
 

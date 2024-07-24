@@ -1,10 +1,10 @@
 import React from 'react'
-import MainQuote from './MainQuote'
+import Quote from './Quote'
 
 const Wallpaper1 = () => {
   return (
     <div className = "MainWallpaper1">
-      <MainQuote/>
+      <Quote/>
     </div>
   )
 }

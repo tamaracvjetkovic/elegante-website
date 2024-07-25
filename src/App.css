@@ -187,7 +187,7 @@
 
 .MainLogoWrapper {  
   background: linear-gradient(rgba(0, 0, 0, 0.201), rgba(0, 0, 0, 0.434), rgba(5, 5, 5, 0.279)), 
-    url("wallpapers/wallpaper2.jpg");
+    url("images/wallpaper2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 64px;
@@ -514,21 +514,21 @@
   }
   .MainCardWomen { 
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(5, 5, 5, 0.142)),
-      url("wallpapers/wallpaper20.gif");
+      url("images/wallpaper20.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .MainCardMen {
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(5, 5, 5, 0.142)),
-      url("wallpapers/wallpaper2.gif");
+      url("images/wallpaper2.gif");
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .MainCardChildren {
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(5, 5, 5, 0.142)),
-      url("wallpapers/wallpaper14-1.webp");
+      url("images/wallpaper14-1.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

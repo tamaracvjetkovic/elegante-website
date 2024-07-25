@@ -1,12 +1,13 @@
 import React from 'react'
-import M from 'materialize-css';
 import { useEffect } from 'react';
 
-import slika1 from "../../wallpapers/wallpaper27.jpg"
-import slika2  from "../../wallpapers/wallpaper8.jpg"
-import slika3 from "../../wallpapers/wallpaper31.jpg"
-import slika4 from "../../wallpapers/wallpaper30.jpg"
-import slika5 from "../../wallpapers/wallpaper34.jpg"
+import M from 'materialize-css';
+
+import slika1 from "../../../../images/homepage_carousel/wallpaper27.jpg"
+import slika2  from "../../../../images/homepage_carousel/wallpaper8.jpg"
+import slika3 from "../../../../images/homepage_carousel/wallpaper31.jpg"
+import slika4 from "../../../../images/homepage_carousel/wallpaper30.jpg"
+import slika5 from "../../../../images/homepage_carousel/wallpaper34.jpg"
 
 
 const Carousel = () => {
@@ -33,7 +34,6 @@ const Carousel = () => {
     return () => clearInterval(intervalId);
   }, []);
 
-  
   return (
     <div class="carousel carousel-slider AfterWallpaper1">
       <a class="carousel-item" href="#one!"> <img src={slika1}/> </a>

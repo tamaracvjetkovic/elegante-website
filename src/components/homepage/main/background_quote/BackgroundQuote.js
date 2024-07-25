@@ -1,7 +1,8 @@
 import React from 'react'
 import Quote from './Quote'
 
-const Wallpaper1 = () => {
+
+const BackgroundQuote = () => {
   return (
     <div className = "MainWallpaper1">
       <Quote/>
@@ -9,4 +10,4 @@ const Wallpaper1 = () => {
   )
 }
 
-export default Wallpaper1
+export default BackgroundQuote

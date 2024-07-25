@@ -1,25 +1,15 @@
 import React from 'react'
-import Logo from './Logo'
-import Carousel from './Carousel'
-//import Quote from './Quote'
-import OptionCards from './OptionCards'
-import Footer from './Footer'
-import MostPopular from './MostPopular'
-import Wallpaper1 from './Wallpaper1'
+
+import Intro from './intro/Intro'
+import Main from './main/Main'
+import Footer from './footer/Footer'
 
 
 const Homepage = () => {
   return (
     <div>
-      <Logo/>
-      <OptionCards/>
-
-      <Wallpaper1/>
-
-      <Carousel/>
-
-      <MostPopular/>
-
+      <Intro/>
+      <Main/>
       <Footer/>  
     </div>
   )

@@ -1,9 +1,12 @@
 import React from 'react'
+
 import Icon from '@mdi/react';
+
 import { mdiInstagram } from '@mdi/js';
 import { mdiFacebook } from '@mdi/js';
-import TikTokIcon from '../custom_icons/TikTokIcon';
 import { mdiEmailOpenHeartOutline } from '@mdi/js';
+
+import TikTokIcon from '../../common/custom_icons/TikTokIcon';
 
 
 const Footer = () => {
@@ -15,9 +18,7 @@ const Footer = () => {
               <div class="col l7 s12">
                 <h5 class="black-text" style = {{display: "flex", justifyContent: "center", alignItems: "flex-end"}}> Thank You <Icon path={mdiEmailOpenHeartOutline} size={1} style = {{ marginLeft: "10px"}}/> </h5>
                 <p class="black-text text-lighten-4"> for embracing elegance as your signature style and bringing timeless grace to the world. </p>
-        
                 <p class="black-text text-lighten-4" style = {{ marginTop: "6px"}}> Yours, <i> Elegante. </i> </p>
-
               </div>
               <div class="col l3 offset-l2 s12">
                 <h5 class="black-text">Follow us!</h5>
@@ -35,9 +36,6 @@ const Footer = () => {
             </div>
           </div>
         </footer>
-
-
-
     </div>
   )
 }

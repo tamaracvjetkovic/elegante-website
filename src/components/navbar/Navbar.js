@@ -1,7 +1,8 @@
 import React from 'react'
-import M from 'materialize-css';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom'
+
+import M from 'materialize-css';
 
 
 const Navbar = () => {
@@ -85,6 +86,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-
-

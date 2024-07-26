@@ -3,11 +3,11 @@ import { useEffect } from 'react';
 
 import M from 'materialize-css';
 
-import slika1 from "../../../../images/homepage_carousel/wallpaper27.jpg"
-import slika2  from "../../../../images/homepage_carousel/wallpaper8.jpg"
-import slika3 from "../../../../images/homepage_carousel/wallpaper31.jpg"
-import slika4 from "../../../../images/homepage_carousel/wallpaper30.jpg"
-import slika5 from "../../../../images/homepage_carousel/wallpaper34.jpg"
+import image1 from "../../../../images/homepage_carousel/1.jpg"
+import image2  from "../../../../images/homepage_carousel/2.jpg"
+import image3 from "../../../../images/homepage_carousel/3.jpg"
+import image4 from "../../../../images/homepage_carousel/4.jpg"
+import image5 from "../../../../images/homepage_carousel/5.jpg"
 
 
 const Carousel = () => {
@@ -36,11 +36,11 @@ const Carousel = () => {
 
   return (
     <div class="carousel carousel-slider" style={{boxShadow: "-1px -13px 15px rgba(0, 0, 0, 0.192)"}}>
-      <a class="carousel-item" href="#one!"> <img src={slika1}/> </a>
-      <a class="carousel-item" href="#two!"> <img src={slika2}/> </a>
-      <a class="carousel-item" href="#three!"> <img src={slika3}/> </a>
-      <a class="carousel-item" href="#four!"> <img src={slika4}/> </a>
-      <a class="carousel-item" href="#five!"> <img src={slika5}/> </a>
+      <a class="carousel-item" href="#one!"> <img src={image1}/> </a>
+      <a class="carousel-item" href="#two!"> <img src={image2}/> </a>
+      <a class="carousel-item" href="#three!"> <img src={image3}/> </a>
+      <a class="carousel-item" href="#four!"> <img src={image4}/> </a>
+      <a class="carousel-item" href="#five!"> <img src={image5}/> </a>
    </div>
    )
 }

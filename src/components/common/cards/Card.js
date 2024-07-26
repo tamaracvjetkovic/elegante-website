@@ -10,14 +10,13 @@ const Card = () => {
   const handleMouseEnter = () => {
     setHeart("favorite");
   };
+  
   const handleMouseLeave = () => {
     setHeart("favorite_border");
   };
 
-  
   return (
     <div className = "item-card">
-
       <div className = "item-card-upper">
          <div className = "item-card-upper1"> 
          </div>
@@ -28,7 +27,6 @@ const Card = () => {
             <div className = "item-card-upper2-color-changer"> </div>
          </div>
       </div>
-
       <div className = "item-card-lower">
         <div className = "item-card-lower1">
           <div className = "item-card-lower1-name">
@@ -44,7 +42,6 @@ const Card = () => {
           </div>
         </div>
       </div>
-
     </div>
   )
 }

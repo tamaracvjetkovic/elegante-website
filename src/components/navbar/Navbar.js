@@ -28,14 +28,14 @@ const Navbar = () => {
   }
 
   return (
-    <div className = "Navbar">
+    <div className = "navbar">
       <nav class="z-depth-0" style = {{position: "fixed", opacity: "99%"}}>
         <div class="nav-wrapper">
           <div style = {{display: "flex", justifyContent: "space-between"}}> 
             <Link to ="#" data-target="mobile-demo" class="sidenav-trigger"><i className="material-icons">menu</i></Link>          
           </div>
           <ul class="hide-on-med-and-down fixed">
-            <li> <Link to ="/" className = "EleganteNavbar">ELEGANTE</Link> </li>
+            <li> <Link to ="/" className = "elegante-navbar">ELEGANTE</Link> </li>
             <li> <Link to ="/create">Women</Link> </li>
             <li> <Link to ="/men-clothes">Men</Link> </li> 
             <li> <Link to ="/children-clothes">Children</Link> </li> 

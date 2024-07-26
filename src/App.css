@@ -46,16 +46,16 @@
 
 /* NAVBAR */
 
-.Navbar {
+.navbar {
   position: relative;
   z-index: 1000;
 }
-.Navbar .nav-wrapper {
+.navbar .nav-wrapper {
   background-color: rgb(255, 255, 255);
   box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.285);
 }
 
-  .Navbar .hide-on-med-and-down .EleganteNavbar  {
+  .navbar .hide-on-med-and-down .elegante-navbar  {
     color: rgb(40, 40, 40) !important;
     letter-spacing: 2.3px;
     font-size: 21px;
@@ -64,11 +64,11 @@
     padding-right: 20px;
     font-family: Muli;
   }
-    .Navbar .hide-on-med-and-down li a:hover {
+    .navbar .hide-on-med-and-down li a:hover {
       background-color: rgba(0, 0, 0, 0.676) !important;
       color: white !important; 
     }  
-    .Navbar .hide-on-med-and-down li a {
+    .navbar .hide-on-med-and-down li a {
       color: rgb(0, 0, 0) !important;
       letter-spacing: 0.4px;
       font-size: 17px;
@@ -95,11 +95,10 @@
         color: rgb(58, 58, 58);
       }
   
-
-  .Navbar .sidenav-trigger {
+  .navbar .sidenav-trigger {
     color: rgba(0, 0, 0, 0.824);
   }
-    .Navbar .sidenav li a {
+    .navbar .sidenav li a {
       color: rgb(0, 0, 0) !important;
       letter-spacing: 0.4px;
       font-size: 16px;
@@ -107,18 +106,18 @@
       padding-left: 16px;
       padding-right: 16px;
     }
-    .Navbar .sidenav li a {
+    .navbar .sidenav li a {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
-    .Navbar .sidenav li a:hover {
+    .navbar .sidenav li a:hover {
       background-color: rgba(0, 0, 0, 0.676) !important;
       color: white !important; 
       transition: 0.12s ease;
     }  
-    .Navbar .sidenav .EleganteNavbar  {
+    .navbar .sidenav .elegante-navbar  {
       color: rgb(40, 40, 40) !important;
       letter-spacing: 2.5px;
       font-size: 18px;
@@ -128,16 +127,16 @@
       font-family: Muli;
     }
 
-    .Navbar .sidenav li i {
+    .navbar .sidenav li i {
       cursor: pointer;
       height: 48px;
       padding-top: 13px;
     }
-    .Navbar .sidenav li a i {
+    .navbar .sidenav li a i {
       display: flex;
       align-items: flex-end;
     } 
-    .Navbar .sidenav li a i { 
+    .navbar .sidenav li a i { 
       color: rgb(0, 0, 0) !important;
       letter-spacing: 0.5px;
       font-size: 24px;
@@ -145,11 +144,11 @@
       padding-left: 16px;
       padding-right: 16px;
     }
-    .Navbar .sidenav li:not(:nth-child(2)) i:hover {
+    .navbar .sidenav li:not(:nth-child(2)) i:hover {
       cursor: pointer;
       color: rgb(255, 255, 255) !important;
     }
-    .Navbar .sidenav li:not(:nth-child(2)):hover i {
+    .navbar .sidenav li:not(:nth-child(2)):hover i {
       color: rgb(255, 255, 255) !important;
     }
   
@@ -183,9 +182,9 @@
       }
 
 
-/* MAIN LOGO */
+/* HOMEPAGE-LOGO */
 
-.MainLogoWrapper {  
+.homepage-logo-wrapper {  
   background: linear-gradient(rgba(0, 0, 0, 0.201), rgba(0, 0, 0, 0.434), rgba(5, 5, 5, 0.279)), 
     url("images/wallpaper2.jpg");
   background-repeat: no-repeat;
@@ -199,12 +198,12 @@
   background-position: 60% 20%;
 }
 @media screen and (max-width: 600px) {
-  .MainLogoWrapper {
+  .homepage-logo-wrapper {
     padding-top: 56px;
   }
 }
 
-  .MainLogoWrapper p {
+  .homepage-logo-wrapper p {
     color: white;
     font-size: 115px;
     -webkit-text-stroke-width: 7px;
@@ -214,270 +213,225 @@
     width: 100vw;
     text-shadow: 2px 2px 8px rgb(0, 0, 0);
   }
-  @media screen and (min-width: 1600px) {
-    .MainLogoWrapper p {
+@media screen and (min-width: 1600px) {
+  .homepage-logo-wrapper {
+    height: 730px;
+    background-size: 130%;
+    background-position: 60% 20%;
+  }
+    .homepage-logo-wrapper p {
       font-size: 190px;
     }
-    .MainLogoWrapper {
-      height: 730px;
-      background-size: 130%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 1600px) {
+  .homepage-logo-wrapper {
+    height: 650px;
+    background-size: 130%;
+    background-position: 60% 20%;
   }
-  @media screen and (max-width: 1600px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 170px;
     }
-    .MainLogoWrapper {
-      height: 650px;
-      background-size: 130%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 1400px) {
+  .homepage-logo-wrapper {
+    height: 580px;
+    background-size: 130%;
+    background-position: 60% 20%;
   }
-  @media screen and (max-width: 1400px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 140px;
     }
-    .MainLogoWrapper {
-      height: 580px;
-      background-size: 130%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 1200px) {
+  .homepage-logo-wrapper {
+    height: 530px;
+    background-size: 130%;
+    background-position: 60% 20%;
   }
-  @media screen and (max-width: 1200px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 130px;
     }
-    .MainLogoWrapper {
-      height: 530px;
-      background-size: 130%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 1000px) {
+  .homepage-logo-wrapper {
+    height: 460px;
+    background-size: 130%;
+    background-position: 60% 20%;
   }
-  @media screen and (max-width: 1000px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 110px;
     }
-    .MainLogoWrapper {
-      height: 460px;
-      background-size: 130%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 920px) {
+  .homepage-logo-wrapper {
+    height: 440px;
+    background-size: 135%;
+    background-position: 60% 20%;
   }
-  @media screen and (max-width: 920px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 100px;
     }
-    .MainLogoWrapper {
-      height: 440px;
-      background-size: 135%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 850px) {
+  .homepage-logo-wrapper {
+    height: 430px;
+    background-size: 145%;
+    background-position: 60% 20%;
   }
-  @media screen and (max-width: 850px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 92px;
     }
-    .MainLogoWrapper {
-      height: 430px;
-      background-size: 145%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 800px) {
+  .homepage-logo-wrapper {
+    height: 420px;
   }
-  @media screen and (max-width: 800px) {
-    .MainLogoWrapper {
-      height: 420px;
-    }
+}
+@media screen and (max-width: 750px) {
+  .homepage-logo-wrapper {
+    height: 400px;
+    background-size: 145%;
+    background-position: 60% 20%;
   }
-  @media screen and (max-width: 750px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 85px;
     }
-    .MainLogoWrapper {
-      height: 400px;
-      background-size: 145%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 700px) {
+  .homepage-logo-wrapper {
+    background-size: 150%;
+    height: 390px;
   }
-  @media screen and (max-width: 700px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 76px;
       -webkit-text-stroke-width: 6px;
     }
-    .MainLogoWrapper {
-      background-size: 150%;
-      height: 390px;
-    }
+}
+@media screen and (max-width: 650px) {
+  .homepage-logo-wrapper {
+    height: 370px;
+    background-size: 160%;
+    background-position: 60% 20%;
   }
-  @media screen and (max-width: 650px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 72px;
       letter-spacing: 13px;
-
     }
-    .MainLogoWrapper {
-      height: 370px;
-      background-size: 160%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 600px) {
+  .homepage-logo-wrapper {
+    height: 340px;
+    background-size: 160%;
+    background-position: 60% 20%;
   }
-  @media screen and (max-width: 600px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 65px;
       -webkit-text-stroke-width: 5px;
       letter-spacing: 12px;
-
     }
-    .MainLogoWrapper {
-      height: 340px;
-      background-size: 160%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 550px) {
+  .homepage-logo-wrapper {
+    height: 320px;
+    background-size: 160%;
+    background-position: 60% 20%;
   }
-  @media screen and (max-width: 550px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 60px;
       -webkit-text-stroke-width: 4px;
       letter-spacing: 11px;
     }
-    .MainLogoWrapper {
-      height: 320px;
-      background-size: 160%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 500px) {
+  .homepage-logo-wrapper {
+    height: 300px;
+    background-size: 160%;
+    background-position: 60% 20%;
   }
-  @media screen and (max-width: 500px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 53px;
       -webkit-text-stroke-width: 4px;
       letter-spacing: 11px;
     }
-    .MainLogoWrapper {
-      height: 300px;
-      background-size: 160%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 450px) {
+  .homepage-logo-wrapper {
+    height: 270px;
+    background-size: 160%;
+    background-position: 60% 20%;
   }
-  @media screen and (max-width: 450px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 44px;
       -webkit-text-stroke-width: 4px;
       letter-spacing: 11px;
     }
-    .MainLogoWrapper {
-      height: 270px;
-      background-size: 160%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 400px) {
+  .homepage-logo-wrapper {
+    height: 240px;
+    background-size: 170%;
+    background-position: 60% 20%;
   }
-  @media screen and (max-width: 400px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 37px;
       -webkit-text-stroke-width: 4px;
       letter-spacing: 10px;
     }
-    .MainLogoWrapper {
-      height: 240px;
-      background-size: 170%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 350px) {
+  .homepage-logo-wrapper {
+    height: 220px;
+    background-size: 170%;
+    background-position: 60% 20%;
   }
-  @media screen and (max-width: 350px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 32px;
       -webkit-text-stroke-width: 3px;
       letter-spacing: 10px;
     }
-    .MainLogoWrapper {
-      height: 220px;
-      background-size: 170%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 300px) {
+  .homepage-logo-wrapper {
+    height: 210px;
+    background-size: 170%;
+    background-position: 60% 20%;
   }
-  @media screen and (max-width: 300px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 30px;
       -webkit-text-stroke-width: 3px;
       letter-spacing: 8px;
     }
-    .MainLogoWrapper {
-      height: 210px;
-      background-size: 170%;
-      background-position: 60% 20%;
-    }
+}
+@media screen and (max-width: 270px) {
+  .homepage-logo-wrapper {
+    height: 200px;
+    background-size: 170%;
+    background-position: 60% 0%;
   }
-  @media screen and (max-width: 270px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 25px;
       -webkit-text-stroke-width: 3px;
       letter-spacing: 8px;
     }
-    .MainLogoWrapper {
-      height: 200px;
-      background-size: 170%;
-      background-position: 60% 0%;
-    }
+}
+@media screen and (max-width: 230px) {
+  .homepage-logo-wrapper {
+    height: 180px;
+    background-size: 170%;
+    background-position: 60% 0%;
   }
-  @media screen and (max-width: 230px) {
-    .MainLogoWrapper p {
+    .homepage-logo-wrapper p {
       font-size: 22px;
       -webkit-text-stroke-width: 2px;
       letter-spacing: 8px;
     }
-    .MainLogoWrapper {
-      height: 180px;
-      background-size: 170%;
-      background-position: 60% 0%;
-    }
-  }
-  .MainLogo {
-    margin-top: 30px;
-    margin-bottom: 25px;
-    width: 32vw;
-    height: 23vw;
-    border-radius: 7px;
-    box-shadow: 0px 0px 9px rgba(96, 71, 2, 0.71);
-  }
-  @media screen and (max-width: 900px) {
-    .MainLogo {
-      width: 38vw;
-      height: 28vw;
-      box-shadow: 0px 0px 9px rgba(96, 71, 2, 0.71)  
-    }
-  }
-  @media screen and (max-width: 800px) {
-    .MainLogo {
-      width: 43vw;
-      height: 33vw;
-      box-shadow: 0px 0px 9px rgba(96, 71, 2, 0.71)  
-    }
-  }
-  @media screen and (max-width: 700px) {
-    .MainLogo {
-      width: 46vw;
-      height: 36vw;
-      box-shadow: 0px 0px 9px rgba(96, 71, 2, 0.71)  
-    }
-  }
-  @media screen and (max-width: 600px) {
-    .MainLogo {
-      width: 55vw;
-      height: 42vw;
-      box-shadow: 0px 0px 9px rgba(96, 71, 2, 0.71)  
-    }
-  }
-  @media screen and (max-width: 500px) {
-    .MainLogo {
-      width: 60vw;
-      height: 45vw;
-      box-shadow: 0px 0px 9px rgba(96, 71, 2, 0.71)  
-    }
-  }
+}
+  
 
+/* HOMEPAGE-FASHION-CATEGORIES */
 
-/* MAIN CONTENT */
-
-.MainOptionCards {
+.homepage-fashion-categories {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -489,7 +443,7 @@
   box-shadow: 0px -1px 20px 0px rgba(0, 0, 0, 0.295);
 }
 @media screen and (max-width: 700px) {
-  .MainOptionCards {
+  .homepage-fashion-categories {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -499,34 +453,34 @@
   }
 }
 
-  .MainOptionOneCard {
+  .homepage-fashion-category {
     flex: 0 0 30%;
     background-color: black;
     margin: 15px;
     border: white 3px solid;
     box-shadow: 2px 3px 8px 0px rgb(61 61 61 / 33%);
   }
-  .MainOptionOneCard a {
+  .homepage-fashion-category a {
     transition: 0.3s;
   }
-  .MainOptionOneCard a:hover { 
+  .homepage-fashion-category a:hover { 
     background-color: rgb(0 0 0 / 30%);
   }
-  .MainCardWomen { 
+  .category-women { 
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(5, 5, 5, 0.142)),
       url("images/wallpaper20.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .MainCardMen {
+  .category-men {
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(5, 5, 5, 0.142)),
       url("images/wallpaper2.gif");
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .MainCardChildren {
+  .category-children {
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(5, 5, 5, 0.142)),
       url("images/wallpaper14-1.webp");
     background-position: center;
@@ -534,85 +488,85 @@
     background-size: cover;
   }
   @media screen and (min-width: 500px) {
-    .MainOptionOneCard {
+    .homepage-fashion-category {
       padding-top: 40px;
       padding-bottom: 40px;
       margin: 12px;
     }
-    .MainOptionOneCard p {
+    .homepage-fashion-category p {
       font-size: 40px !important;
     }
   }
   @media screen and (min-width: 600px) {
-    .MainOptionOneCard {
+    .homepage-fashion-category {
       padding-top: 55px;
       padding-bottom: 55px;
       margin: 15px;
     }
-    .MainOptionOneCard p {
+    .homepage-fashion-category p {
       font-size: 43px !important;
     }
   } 
   @media screen and (min-width: 700px) {
-    .MainOptionOneCard {
+    .homepage-fashion-category {
       padding-top: 55px;
       padding-bottom: 55px;
       margin: 12px;
     }
-    .MainOptionOneCard p {
+    .homepage-fashion-category p {
       font-size: 25px !important;
     }
   } 
   @media screen and (min-width: 850px) {
-    .MainOptionOneCard {
+    .homepage-fashion-category {
       padding-top: 70px;
       padding-bottom: 70px;
       margin: 15px;
     }
-    .MainOptionOneCard p {
+    .homepage-fashion-category p {
       font-size: 29px !important;
     }
   }
   @media screen and (min-width: 920px) {
-    .MainOptionOneCard p {
+    .homepage-fashion-category p {
       font-size: 33px !important;
     }
   }
   @media screen and (min-width: 1000px) {
-    .MainOptionOneCard {
+    .homepage-fashion-category {
       padding: 35px;
       padding-top: 80px;
       padding-bottom: 80px;
       margin: 15px;
     }
-    .MainOptionOneCard p {
+    .homepage-fashion-category p {
       font-size: 40px !important;
     }
   }
   @media screen and (min-width: 1200px) {
-    .MainOptionOneCard {
+    .homepage-fashion-category {
       padding: 35px;
       padding-top: 100px;
       padding-bottom: 100px;
       margin: 15px;
     }
-    .MainOptionOneCard p {
+    .homepage-fashion-category p {
       font-size: 45px !important;
     }
   }
   @media screen and (min-width: 1600px) {
-    .MainOptionOneCard {
+    .homepage-fashion-category {
       padding: 35px;
       padding-top: 130px;
       padding-bottom: 130px;
       margin: 15px;
     }
-    .MainOptionOneCard p {
+    .homepage-fashion-category p {
       font-size: 52px !important;
     }
   }
   @media screen and (max-width: 700px) {
-    .MainOptionOneCard {
+    .homepage-fashion-category {
       display: flex;
       background-color: black;
       padding: 110px;
@@ -620,12 +574,12 @@
       align-items: flex-start;
       justify-content: center;
     }
-    .MainOptionOneCard:not(:last-child) {
+    .homepage-fashion-category:not(:last-child) {
       margin-bottom: 15px;
     }
   }
   @media screen and (max-width: 550px) {
-    .MainOptionOneCard {
+    .homepage-fashion-category {
       display: flex;
       background-color: black;
       padding: 80px;
@@ -633,16 +587,15 @@
       align-items: flex-start;
       justify-content: center;
     }
-    .MainOptionOneCard:not(:last-child) {
+    .homepage-fashion-category:not(:last-child) {
       margin-bottom: 15px;
     }
   }
-/* 3, 5, 6, 10, 16, 17, 21, 22, 27 */
 
 
-/* MAIN WALLPAPER 1 */
+/* HOMEPAGE-BACKGROUND-QUOTE */
 
-.MainWallpaper1 { 
+.homepage-background { 
   background: linear-gradient(rgba(0, 0, 0, 0.347), rgba(0, 0, 0, 0.498), rgba(5, 5, 5, 0.324)), 
     url("images/wallpaper1.jpg");
   background-repeat: no-repeat;
@@ -658,7 +611,7 @@
 
 /* QUOTE */
 
-.MainQuote {
+.homepage-background-quote {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -668,7 +621,7 @@
   width: 100%;
 }
 
-  .MainQuote p {
+  .homepage-background-quote p {
     font-size: 35px;
     padding-right: 60px;
     padding-left: 60px;
@@ -677,244 +630,240 @@
     letter-spacing: 2px;
     font-weight: 400;
   }
-  @media screen and (min-width: 1600px) {
-    .MainWallpaper1 { 
-      height: 750px;
-    }
-    .MainQuote p {
+@media screen and (min-width: 1600px) {
+  .homepage-background { 
+    height: 750px;
+  }
+    .homepage-background-quote p {
       font-size: 50px;
     }
+}
+@media screen and (max-width: 1600px) {
+  .homepage-background { 
+    height: 700px;
   }
-  @media screen and (max-width: 1600px) {
-    .MainWallpaper1 { 
-      height: 700px;
-    }
-    .MainQuote p {
+    .homepage-background-quote p {
       font-size: 43px;
     }
+}
+@media screen and (max-width: 1500px) {
+  .homepage-background { 
+    height: 650px;
   }
-  @media screen and (max-width: 1500px) {
-    .MainWallpaper1 { 
-      height: 650px;
-    }
-    .MainQuote p {
+    .homepage-background-quote p {
       font-size: 40px;
     }
+}
+@media screen and (max-width: 1400px) {
+  .homepage-background { 
+    height: 600px;
   }
-  @media screen and (max-width: 1400px) {
-    .MainWallpaper1 { 
-      height: 600px;
-    }
-    .MainQuote p {
+    .homepage-background-quote p {
       font-size: 35px;
     }
+}
+@media screen and (max-width: 1100px) {
+  .homepage-background { 
+    height: 500px;
   }
-  @media screen and (max-width: 1100px) {
-    .MainWallpaper1 { 
-      height: 500px;
-    }
+}
+@media screen and (max-width: 1000px) {
+  .homepage-background { 
+    height: 450px;
   }
-  @media screen and (max-width: 1000px) {
-    .MainWallpaper1 { 
-      height: 450px;
-    }
+}
+@media screen and (max-width: 900px) {
+  .homepage-background { 
+    height: 410px;
   }
-  @media screen and (max-width: 900px) {
-    .MainWallpaper1 { 
-      height: 410px;
-    }
-    .MainQuote p {
+    .homepage-background-quote p {
       font-size: 30px;
       padding-right: 40px;
       padding-left: 40px;
       letter-spacing: 2px;
     }
+}
+@media screen and (max-width: 800px) {
+  .homepage-background { 
+    height: 390px;
+    background-size: 140%;
   }
-  @media screen and (max-width: 800px) {
-    .MainWallpaper1 { 
-      height: 390px;
-      background-size: 140%;
-    }
-    .MainQuote p {
+    .homepage-background-quote p {
       font-size: 25px;
       padding-right: 35px;
       padding-left: 35px;
       letter-spacing: 2px;
     }
+}
+@media screen and (max-width: 700px) {
+  .homepage-background { 
+    height: 400px;
+    background-size: 150%;
+    background-position: 40% 10%;
   }
-  @media screen and (max-width: 700px) {
-    .MainWallpaper1 { 
-      height: 400px;
-      background-size: 150%;
-      background-position: 40% 10%;
-    }
-    .MainQuote p {
+    .homepage-background-quote p {
       font-size: 24px;
       padding-right: 20px;
       padding-left: 20px;
       letter-spacing: 2px;
     }
+}
+@media screen and (max-width: 650px) {
+  .homepage-background { 
+    height: 370px;
   }
-  @media screen and (max-width: 650px) {
-    .MainWallpaper1 { 
-      height: 370px;
-    }
-    .MainQuote p {
+    .homepage-background-quote p {
       font-size: 22px;
       padding-right: 17px;
       padding-left: 17px;
       letter-spacing: 2px;    
     }
+}
+@media screen and (max-width: 600px) {
+  .homepage-background { 
+    height: 340px;
+    background-size: 155%;
   }
-  @media screen and (max-width: 600px) {
-    .MainWallpaper1 { 
-      height: 340px;
-      background-size: 155%;
-    }
-    .MainQuote p {
+    .homepage-background-quote p {
       font-size: 19px;
       padding-right: 17px;
       padding-left: 17px;
       letter-spacing: 2px;     
     }
+}
+@media screen and (max-width: 545px) {
+  .homepage-background { 
+    height: 320px;
+    background-size: 165%;
   }
-  @media screen and (max-width: 545px) {
-    .MainWallpaper1 { 
-      height: 320px;
-      background-size: 165%;
-    }
-    .MainQuote {
-      padding: 30px;
-      padding-right: 20px;
-      padding-left: 20px; 
-    }
-    .MainQuote p {
+  .homepage-background-quote {
+    padding: 30px;
+    padding-right: 20px;
+    padding-left: 20px; 
+  }
+    .homepage-background-quote p {
       font-size: 19px;
       padding-right: 17px;
       padding-left: 17px;
       letter-spacing: 2px;     
     }
+}
+@media screen and (max-width: 480px) {
+  .homepage-background { 
+    height: 300px;
+    background-size: 175%;
   }
-  @media screen and (max-width: 480px) {
-    .MainWallpaper1 { 
-      height: 300px;
-      background-size: 175%;
-    }
-    .MainQuote p {
+    .homepage-background-quote p {
       font-size: 17px;
     }
+}
+@media screen and (max-width: 450px) {
+  .homepage-background { 
+    height: 270px;
+    background-size: 180%;
+    background-position: 43% 10%;
   }
-  @media screen and (max-width: 450px) {
-    .MainWallpaper1 { 
-      height: 270px;
-      background-size: 180%;
-      background-position: 43% 10%;
-    }
-    .MainQuote {
-      padding: 26px; 
-    }
-    .MainQuote p {
+  .homepage-background-quote {
+    padding: 26px; 
+  }
+    .homepage-background-quote p {
       font-size: 16px;
     }
+}
+@media screen and (max-width: 400px) {
+  .homepage-background { 
+    height: 250px;
+    background-size: 185%;
+    background-position: 45% 10%;
   }
-  @media screen and (max-width: 400px) {
-    .MainWallpaper1 { 
-      height: 250px;
-      background-size: 185%;
-      background-position: 45% 10%;
-    }
-    .MainQuote {
-      padding: 26px; 
-    }
-    .MainQuote p {
+  .homepage-background-quote {
+    padding: 26px; 
+  }
+    .homepage-background-quote p {
       font-size: 15px;
     }
+}
+@media screen and (max-width: 355px) {
+  .homepage-background { 
+    height: 230px;
+    background-size: 200%;
+    background-position: 50% 10%;
   }
-  @media screen and (max-width: 355px) {
-    .MainWallpaper1 { 
-      height: 230px;
-      background-size: 200%;
-      background-position: 50% 10%;
-    }
-    .MainQuote {
-      padding: 22px; 
-    } 
-    .MainQuote p {
+  .homepage-background-quote {
+    padding: 22px; 
+  } 
+    .homepage-background-quote p {
       font-size: 14px;
     }
+}
+@media screen and (max-width: 325px) {
+  .homepage-background { 
+    height: 220px;
+    background-size: 220%;
+    background-position: 50% 10%;
   }
-  @media screen and (max-width: 325px) {
-    .MainWallpaper1 { 
-      height: 220px;
-      background-size: 220%;
-      background-position: 50% 10%;
-    }
-    .MainQuote {
-      padding: 20px; 
-    }
-    .MainQuote p {
+  .homepage-background-quote {
+    padding: 20px; 
+  }
+    .homepage-background-quote p {
       font-size: 13px;
     }
+}
+@media screen and (max-width: 280px) {
+  .homepage-background { 
+    height: 200px;
+    background-size: 230%;
+    background-position: 50% 10%;
   }
-  @media screen and (max-width: 280px) {
-    .MainWallpaper1 { 
-      height: 200px;
-      background-size: 230%;
-      background-position: 50% 10%;
-    }
-    .MainQuote {
-      padding: 18px; 
-    }
-    .MainQuote p {
+  .homepage-background-quote {
+    padding: 18px; 
+  }
+    .homepage-background-quote p {
       font-size: 12px;
     }
+}
+@media screen and (max-width: 250px) {
+  .homepage-background { 
+    height: 175px;
+    background-size: 230%;
+    background-position: 50% 10%;
   }
-  @media screen and (max-width: 250px) {
-    .MainWallpaper1 { 
-      height: 175px;
-      background-size: 230%;
-      background-position: 50% 10%;
-    }
-    .MainQuote {
-      padding: 16px; 
-    }
-    .MainQuote p {
+  .homepage-background-quote {
+    padding: 16px; 
+  }
+    .homepage-background-quote p {
       font-size: 10px;
     }
+}
+@media screen and (max-width: 220px) {
+  .homepage-background { 
+    height: 170px;
+    background-size: 230%;
+    background-position: 50% 10%;
   }
-  @media screen and (max-width: 220px) {
-    .MainWallpaper1 { 
-      height: 170px;
-      background-size: 230%;
-      background-position: 50% 10%;
-    }
-    .MainQuote {
-      padding: 15px; 
-    }
-    .MainQuote p {
+  .homepage-background-quote {
+    padding: 15px; 
+  }
+    .homepage-background-quote p {
       font-size: 9px;
     }
+}
+@media screen and (max-width: 200px) {
+  .homepage-background { 
+    height: 150px;
+    background-size: 230%;
+    background-position: 50% 10%;
   }
-  @media screen and (max-width: 200px) {
-    .MainWallpaper1 { 
-      height: 150px;
-      background-size: 230%;
-      background-position: 50% 10%;
-    }
-    .MainQuote {
-      padding: 15px; 
-    }
-    .MainQuote p {
+  .homepage-background-quote {
+    padding: 15px; 
+  }
+    .homepage-background-quote p {
       font-size: 8px;
     }
-  }
+}
   
 
 /* CAROUSEL */
-
-.AfterWallpaper1 {
-  box-shadow: -1px -13px 15px rgba(0, 0, 0, 0.192);
-}
 
 .carousel {
   height: 560px !important;
@@ -923,111 +872,112 @@
     height: 650px !important;
     padding-top: 33px;
   }
-  @media screen and (min-width: 1400px) {
-    .carousel {
-      height: 780px !important;
-    }
-    .carousel img {
-      height: 780px !important;
-      width: 120% !important;
-      transform: translateX(-5%);
-    }
+
+@media screen and (min-width: 1400px) {
+  .carousel {
+    height: 780px !important;
   }
-  @media screen and (max-width: 1400px) {
-    .carousel {
-      height: 700px !important;
-    }
-    .carousel img {
-      height: 700px !important;
-      width: 120% !important;
-      transform: translateX(-5%);
-    }
+  .carousel img {
+    height: 780px !important;
+    width: 120% !important;
+    transform: translateX(-5%);
   }
-  @media screen and (max-width: 1200px) {
-    .carousel {
-      height: 650px !important;
-    }
-    .carousel img {
-      height: 650px !important;
-      width: 120% !important;
-      transform: translateX(-5%);
-    }
+}
+@media screen and (max-width: 1400px) {
+  .carousel {
+    height: 700px !important;
   }
-  @media screen and (max-width: 1000px) {
-    .carousel {
-      height: 600px !important;
-    }
-    .carousel img {
-      height: 600px !important;
-      width: 120% !important;
-      transform: translateX(-5%);
-    }
+  .carousel img {
+    height: 700px !important;
+    width: 120% !important;
+    transform: translateX(-5%);
   }
-  @media screen and (max-width: 880px) {
-    .carousel {
-      height: 550px !important;
-    }
-    .carousel img {
-      height: 550px !important;
-      width: 120% !important;
-      transform: translateX(-5%);
-    }
+}
+@media screen and (max-width: 1200px) {
+  .carousel {
+    height: 650px !important;
   }
-  @media screen and (max-width: 800px) {
-    .carousel {
-      height: 460px !important;
-    }
-    .carousel img {
-      height: 500px !important;
-      width: 105% !important;
-      transform: translateX(0%);
-    }
+  .carousel img {
+    height: 650px !important;
+    width: 120% !important;
+    transform: translateX(-5%);
   }
-  @media screen and (max-width: 700px) {
-    .carousel {
-      height: 400px !important;
-    }
-    .carousel img {
-      width: 100% !important;
-      height: 400px !important;
-    }
+}
+@media screen and (max-width: 1000px) {
+  .carousel {
+    height: 600px !important;
   }
-  @media screen and (max-width: 600px) {
-    .carousel img {
-      height: 400px !important;
-      width: 120% !important;
-      transform: translateX(-5%);
-    }
+  .carousel img {
+    height: 600px !important;
+    width: 120% !important;
+    transform: translateX(-5%);
   }
-  @media screen and (max-width: 500px) {
-    .carousel img {
-      width: 150% !important;
-      transform: translateX(-15%);
-    }
+}
+@media screen and (max-width: 880px) {
+  .carousel {
+    height: 550px !important;
   }
-  @media screen and (max-width: 450px) {
-    .carousel img {
-      width: 180% !important;
-      transform: translateX(-22%);
-    }
+  .carousel img {
+    height: 550px !important;
+    width: 120% !important;
+    transform: translateX(-5%);
   }
-  @media screen and (max-width: 400px) {
-    .carousel img {
-      width: 190% !important;
-      transform: translateX(-23%);
-    }
+}
+@media screen and (max-width: 800px) {
+  .carousel {
+    height: 460px !important;
   }
-  @media screen and (max-width: 350px) {
-    .carousel img {
-      width: 190% !important;
-      transform: translateX(-20%);
-    }
+  .carousel img {
+    height: 500px !important;
+    width: 105% !important;
+    transform: translateX(0%);
   }
+}
+@media screen and (max-width: 700px) {
+  .carousel {
+    height: 400px !important;
+  }
+  .carousel img {
+    width: 100% !important;
+    height: 400px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .carousel img {
+    height: 400px !important;
+    width: 120% !important;
+    transform: translateX(-5%);
+  }
+}
+@media screen and (max-width: 500px) {
+  .carousel img {
+    width: 150% !important;
+    transform: translateX(-15%);
+  }
+}
+@media screen and (max-width: 450px) {
+  .carousel img {
+    width: 180% !important;
+    transform: translateX(-22%);
+  }
+}
+@media screen and (max-width: 400px) {
+  .carousel img {
+    width: 190% !important;
+    transform: translateX(-23%);
+  }
+}
+@media screen and (max-width: 350px) {
+  .carousel img {
+    width: 190% !important;
+    transform: translateX(-20%);
+  }
+}
   
 
-/* MAIN MOST POPULAR */
+/* HOMEPAGE-POPULAR-ITEMS */
 
-.MainMostPopular {
+.homepage-popular-items-cards {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 20px;
@@ -1035,10 +985,7 @@
   margin: 0 !important;
 }
 
-
-/* CLOTHES CARD */
-
-.TopPicksForYou {
+.homepage-popular-items-header {
   font-size: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -1047,12 +994,14 @@
 }
 
 
-.ClothesCard {
+/* CARD */
+
+.item-card {
   height: 500px;
   background-color: rgb(255, 255, 255);
 }
 
-  .ClothesCardUpper {
+  .item-card-upper {
     background-color: rgb(188, 188, 188);
     background: url("card_pictures/picture2.webp");
     background-repeat: no-repeat;
@@ -1061,19 +1010,19 @@
     height: 340px;
     margin-bottom: 2px;
   }
-  @media screen and (max-width: 1400px) {
-    .ClothesCard {
-      height: 500px;
-    } 
-      .ClothesCardUpper {
-        background-position-x: 50%;
-        height: 340px;
-      }
-  }
-    .ClothesCardUpper1 {
+@media screen and (max-width: 1400px) {
+  .item-card {
+    height: 500px;
+  } 
+    .item-card-upper {
+      background-position-x: 50%;
+      height: 340px;
+    }
+}
+    .item-card-upper1 {
       height: 295px;
     }
-    .ClothesCardUpper2 {
+    .item-card-upper2 {
       height: 23px;
       display: flex;
       justify-content: center;
@@ -1082,7 +1031,7 @@
       padding-right: 10px;
       background-color: rgba(255, 255, 255, 0.47);
     }
-      .ClothesCardUpper2ColorChanger {
+      .item-card-upper2-color-changer {
         height: 13px;
         width: 13px;
         border-radius: 10px;
@@ -1094,28 +1043,28 @@
         cursor: pointer;
         box-shadow: 0.4px 0.5px 1.3px rgb(0, 0, 0);
       }
-      .ClothesCardUpper2ColorChanger:hover,
-      .ClothesCardUpper2ColorChanger:focus {
+      .item-card-upper2-color-changer:hover,
+      .item-card-upper2-color-changer:focus {
         height: 15px;
         width: 15px;
         cursor: pointer;
       }
 
-  .ClothesCardLower1 {
+  .item-card-lower1 {
     background-color: rgb(255, 255, 255);
     height: 65px;
     display: flex;
     padding-top: 3px;
     border-bottom: solid rgba(0, 0, 0, 0.228) 1px
   }
-    .ClothesCardLower1Name {
+    .item-card-lower1-name {
       height: 62px;
       width: 82%;
       font-size: 13px;
       font-weight: 600;
       text-align: left;
     }
-    .ClothesCardLower1Favorite {
+    .item-card-lower1-favorite {
       height: 62px;
       width: 18%;
       display: flex;
@@ -1128,38 +1077,39 @@
         z-index: 5;
       }
      
-  .ClothesCardLower2 {
+  .item-card-lower2 {
     background-color: rgb(255, 255, 255);
     display: flex;
     padding-top: 5px;
   }
-    .ClothesCardLower2Price {
+    .item-card-lower2-price {
       font-weight: 900;
       font-size: 17px;
       letter-spacing: 0.5px;
     }
 
-  @media screen and (min-width: 1400px) {
-    .ClothesCard {
-      height: 600px;
-    } 
-      .ClothesCardUpper {
-        background-position-x: 50%;
-        height: 440px;
+@media screen and (min-width: 1400px) {
+  .item-card {
+    height: 600px;
+  } 
+    .item-card-upper {
+      background-position-x: 50%;
+      height: 440px;
+    }
+      .item-card-upper1 {
+        height: 395px;
       }
-        .ClothesCardUpper1 {
-          height: 395px;
-        }
-  }
-  @media screen and (max-width: 1400px) {
-    .ClothesCard {
-      height: 500px;
-    } 
-      .ClothesCardUpper {
-        background-position-x: 50%;
-        height: 340px;
-      }
-  }
+}
+@media screen and (max-width: 1400px) {
+  .item-card {
+    height: 500px;
+  } 
+    .item-card-upper {
+      background-position-x: 50%;
+      height: 340px;
+    }
+}
+
 
 /* FOOTER */
 
@@ -1174,38 +1124,5 @@
   }
   .grey-text.text-lighten-4 {
     color: black !important;
-  }
-
-
-/* HOMEPAGE */
-
-.Home {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0px 0px 4px rgba(104, 77, 4, 0.79);
-}
-    .BlogPreview {
-      margin-bottom: 10px;
-      padding: 7px;
-    }
-    .BlogPreview:first-child {
-      margin-top: 15px;
-    }
-      .BlogPreview h3 {
-        color: red;
-        margin-bottom: 10px;
-      }
-      .BlogPreview p {
-        margin: 0;
-      }
-      .BlogPreview button {
-        font-size: 12px;
-        background-color: rgb(213, 140, 22);
-      }
-
-  .BlogDetails {
-    width: 100vw;
   }
 

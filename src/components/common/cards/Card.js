@@ -16,30 +16,30 @@ const Card = () => {
 
   
   return (
-    <div className = "ClothesCard">
+    <div className = "item-card">
 
-      <div className = "ClothesCardUpper">
-         <div className = "ClothesCardUpper1"> 
+      <div className = "item-card-upper">
+         <div className = "item-card-upper1"> 
          </div>
-         <div className = "ClothesCardUpper2">
-            <div className = "ClothesCardUpper2ColorChanger"> </div>
-            <div className = "ClothesCardUpper2ColorChanger"> </div>
-            <div className = "ClothesCardUpper2ColorChanger"> </div>
-            <div className = "ClothesCardUpper2ColorChanger"> </div>
+         <div className = "item-card-upper2">
+            <div className = "item-card-upper2-color-changer"> </div>
+            <div className = "item-card-upper2-color-changer"> </div>
+            <div className = "item-card-upper2-color-changer"> </div>
+            <div className = "item-card-upper2-color-changer"> </div>
          </div>
       </div>
 
-      <div className = "ClothesCardLower">
-        <div className = "ClothesCardLower1">
-          <div className = "ClothesCardLower1Name">
-            Rosie Maxi Dress  ({color})
-          </div>
-          <div className = "ClothesCardLower1Favorite">
+      <div className = "item-card-lower">
+        <div className = "item-card-lower1">
+          <div className = "item-card-lower1-name">
+            Rosie Maxi Dress  ({color}) 
+          </div>  
+          <div className = "item-card-lower1-favorite">
               <i className="material-icons heart" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}> {heart} </i>
           </div>
         </div>
-        <div className = "ClothesCardLower2">
-          <div className = "ClothesCardLower2Price">
+        <div className = "item-card-lower2">
+          <div className = "item-card-lower2-price">
             EUR €{price}
           </div>
         </div>

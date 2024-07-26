@@ -4,7 +4,7 @@ import Quote from './Quote'
 
 const BackgroundQuote = () => {
   return (
-    <div className = "MainWallpaper1">
+    <div className = "homepage-background">
       <Quote/>
     </div>
   )

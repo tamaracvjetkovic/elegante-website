@@ -186,7 +186,7 @@
 
 .homepage-logo-wrapper {  
   background: linear-gradient(rgba(0, 0, 0, 0.201), rgba(0, 0, 0, 0.434), rgba(5, 5, 5, 0.279)), 
-    url("images/homepage-logo/1.jpg");
+    url("images/homepage_logo/1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 64px;
@@ -468,21 +468,21 @@
   }
   .category-women { 
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(5, 5, 5, 0.142)),
-      url("images/homepage-fashion-categories/1.gif");
+      url("images/homepage_fashion_categories/1.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .category-men {
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(5, 5, 5, 0.142)),
-      url("images/homepage-fashion-categories/2.gif");
+      url("images/homepage_fashion_categories/2.gif");
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .category-children {
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(5, 5, 5, 0.142)),
-      url("images/homepage-fashion-categories/3.webp");
+      url("images/homepage_fashion_categories/3.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -597,7 +597,7 @@
 
 .homepage-background { 
   background: linear-gradient(rgba(0, 0, 0, 0.347), rgba(0, 0, 0, 0.498), rgba(5, 5, 5, 0.324)), 
-    url("images/homepage_background-quote/1.jpg");
+    url("images/homepage_background_quote/1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 530px;

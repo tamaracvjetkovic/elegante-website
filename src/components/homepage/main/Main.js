@@ -8,9 +8,9 @@ import PopularItems from './popular_items/PopularItems'
 const Main = () => {
   return (
     <div>
-       <BackgroundQuote/>
        <Carousel/>
        <PopularItems/>
+       <BackgroundQuote/> 
     </div>
   )
 }

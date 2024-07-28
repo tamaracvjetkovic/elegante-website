@@ -35,7 +35,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div class="carousel carousel-slider" style={{boxShadow: "-1px -13px 15px rgba(0, 0, 0, 0.192)"}}>
+    <div class="carousel carousel-slider">
       <a class="carousel-item" href="#one!"> <img src={image1}/> </a>
       <a class="carousel-item" href="#two!"> <img src={image2}/> </a>
       <a class="carousel-item" href="#three!"> <img src={image3}/> </a>

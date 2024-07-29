@@ -61,7 +61,7 @@ const Navbar = () => {
       </nav>
 
       <ul class="sidenav" id="mobile-demo">
-        <li><Link to ="/" className = "EleganteNavbar">ELEGANTE</Link></li>    
+        <li><Link to ="/" className = "elegante-navbar">ELEGANTE</Link></li>    
         <li>
           <form id = "form2" >
             <div class="input-field">

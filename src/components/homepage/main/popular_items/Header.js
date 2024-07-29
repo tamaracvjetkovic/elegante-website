@@ -3,7 +3,7 @@ import React from 'react'
 
 const PopularItemsHeader = () => {
   return (
-     <div className = "homepage-popular-items-header"> Top Picks for You! </div>
+     <div className = "homepage-popular-items-header"> TOP PICKS FOR YOU! </div>
   )
 }
 

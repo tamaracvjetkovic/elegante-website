@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-const PopularItemsHeader = () => {
+const Header = () => {
   return (
      <div className = "homepage-popular-items-header"> TOP PICKS FOR YOU! </div>
   )
 }
 
-export default PopularItemsHeader
+export default Header

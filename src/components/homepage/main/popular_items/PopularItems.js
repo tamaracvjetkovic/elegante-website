@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Header from './Header'
-import FashionCards from './FashionCards'
+import FashionCards from './FashionCardsWrapper'
 
 
 const PopularItems = () => {
